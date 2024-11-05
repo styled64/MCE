@@ -1,22 +1,3 @@
-#
-# Copyright (c) 2006, 2010, Oracle and/or its affiliates. All rights reserved.
-# Use is subject to license terms.
-#
-# Desktop entry for the automatic execution of jnlp files identified as
-# the x-java-jnlp-file mime type.
-#
-# Note: This file may be installed under both "control-center-2.0" and
-# "applications".  Depending upon the version of GNOME, the copy in
-# "applications" may take precedence.
-#
-[Desktop Entry]
-Encoding=UTF-8
-Name=JavaWS
-Comment=Java Web Start
-Exec=javaws
-Icon=sun-javaws.png
-Terminal=false
-Type=Application
-NoDisplay=true
-Categories=Java;Applications;
-MimeType=application/x-java-jnlp-file;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a0e008317ffd42379184e159d610456f6470970b10f94fee43ebdbb50384d35
+size 619

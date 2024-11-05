@@ -1,21 +1,3 @@
-{
-  "name": "mce",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"mce": "node ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "child_process": "^1.0.2",
-    "express": "^4.21.1",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "path": "^0.12.7",
-    "ws": "^8.18.0"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0535cb9c4b4d063bbf6ab186aefa37e12e2d4f33258387c8a53a8329d48a8279
+size 420

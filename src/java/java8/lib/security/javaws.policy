@@ -1,5 +1,3 @@
-
-grant codeBase "file:${jnlpx.home}/javaws.jar" {
-    permission java.security.AllPermission;
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7a87d1f3f4b7ba1d19d0460fa4b63bd1093afc514d67fe3c356247236326425
+size 98

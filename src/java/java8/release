@@ -1,7 +1,3 @@
-JAVA_VERSION="1.8.0_431"
-JAVA_RUNTIME_VERSION="1.8.0_431-b10"
-OS_NAME="Linux"
-OS_VERSION="2.6"
-OS_ARCH="amd64"
-SOURCE=".:git:fc007cccb4cf+"
-BUILD_TYPE="commercial"
+version https://git-lfs.github.com/spec/v1
+oid sha256:18138d2968b6279f016d38fce172cf2d7c4fc2c7b7b96fc394cbe4de35cc0452
+size 164
