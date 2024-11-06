@@ -1,5 +1,7 @@
 # Minecraft Eagler (MCE) Server
 
+(for experienced users)
+
 Server setup for [Eaglercraft](https://eaglercraft.com/)
 
 fun for lan parties when everybody doesnt have minecraft
