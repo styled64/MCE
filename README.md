@@ -1,4 +1,4 @@
-# Minecraft Eagler (MCE) Server (LINUX ONLY)
+# Minecraft Eagler (MCE) Server (LINUX)
 
 (for experienced users)
 
