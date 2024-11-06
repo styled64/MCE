@@ -12,7 +12,7 @@ Works for version: 1.8.8.
 
 # How-To
 
-Download the offline version of Eaglercraft from their website, then rename it to "minecraft". Place this file in `src/frontend`
+Download the offline version of Eaglercraft from their website, unzip the zip file and find the EaglercraftX html file, rename it to "minecraft.html", then place it inside `src/frontend`.
 
 In the MCE directory...
 
