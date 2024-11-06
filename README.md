@@ -1,4 +1,4 @@
-# Minecraft Eagler (MCE) Server
+# Minecraft Eagler (MCE) Server (LINUX ONLY)
 
 (for experienced users)
 
@@ -18,7 +18,7 @@ In the MCE directory...
 
 Run `npm install` to install the packages required to run.
 
-Open ports `8006` and `8081` (TCP & UDP) to your local network. On linux, use `iptables` or `ufw`. On windows use the Windows Firewall to open the ports. If you plan to play over internet, then also open the ports on your router.
+Open ports `8006` and `8081` (TCP & UDP) to your local network. On linux, use `iptables` or `ufw`. If you plan to play over internet, then also open the ports on your router.
 
 To start the server run `npm run mce` or `node index.js`.
 
