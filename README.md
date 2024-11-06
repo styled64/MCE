@@ -1,6 +1,6 @@
 # Minecraft Eagler (MCE) Server
 
-Quick Server setup for Eaglercraft
+Quick Server setup for [Eaglercraft](https://eaglercraft.com/)
 
 fun for lan parties when everybody doesnt have minecraft
 
