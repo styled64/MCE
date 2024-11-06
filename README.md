@@ -4,7 +4,7 @@ Server setup for [Eaglercraft](https://eaglercraft.com/)
 
 fun for lan parties when everybody doesnt have minecraft
 
-Please note! This requires manual setup, such as requiring the eaglercraft html file on your own terms.
+<img src="https://static.vecteezy.com/system/resources/thumbnails/012/042/301/small/warning-sign-icon-transparent-background-free-png.png" width="20" /> Please note! This requires manual setup, such as requiring the eaglercraft html file on your own terms.
 
 Works for version: 1.8.8.
 
