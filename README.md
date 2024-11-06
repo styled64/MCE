@@ -18,9 +18,11 @@ In the MCE directory...
 
 Run `npm install` to install the packages required to run.
 
-To start the server run `npm run mce` or `node index.js` in the MCE directory.
+Open ports `8006` and `8081` (TCP & UDP) to your local network. On linux, use `iptables` or `ufw`. On windows use the Windows Firewall to open the ports. If you plan to play over internet, open the ports on your router.
 
-Open ports `8006` and `8081` (TCP & UDP) to your local network. On linux, use `iptables` or `ufw`. On windows use the Windows Firewall to open the ports. Then share your `ws` ip with your friends. If you plan to play over internet, open the ports on your router.
+To start the server run `npm run mce` or `node index.js`.
+
+Share your `ws` ip with your friends.
 
 To use the console panel, the machine running the server must connect to `localhost:8006/console`.
 
