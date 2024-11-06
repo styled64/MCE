@@ -24,7 +24,7 @@ To start the server run `npm run mce` or `node index.js`.
 
 Share your `ws` ip with your friends. (If you are playing over internet, replace your local ip with your public ip address, never share your IP to anyone you dont trust!)
 
-To use the console panel, the machine running the server must connect to `localhost:8006/console`.
+To use the console panel, open a new tab on your web browser and goto `localhost:8006/console`.
 
 To properly turn off the server you can press <CTRL + C> inside the terminal running the server, or by clicking the "Shutdown" button on the console panel.
 
