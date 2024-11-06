@@ -1,0 +1,120 @@
+body {
+	background-color: rgb(10,10,10);
+}
+
+@font-face {
+	font-family: 'JetBrains';
+	src: url('/JetBrainsMono-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.main-font-normal {
+	font-family: 'JetBrains', monospace;
+	font-style: normal;
+	font-weight: 400;
+
+	color: white;
+}
+
+.main-font-bold {
+	font-family: 'JetBrains', monospace;
+	font-style: normal;
+	font-weight: 800;
+}
+
+.main-font-bold-red {
+	font-family: 'JetBrains', monospace;
+	font-style: normal;
+	font-weight: 800;
+
+	color: rgb(240, 90, 90);
+}
+
+#content {
+	flex: none;
+}
+
+#title {
+	text-align: center;
+	color: white;
+}
+
+#console {
+	background-color: rgb(10,10,10);
+	height: 96%;
+
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+
+	overflow-y: auto;
+}
+
+#console-buttons {
+	margin-top: 5px;
+	
+	background-color: rgb(10, 10, 10);
+
+	margin-left: -1%;
+
+	height: 5%;
+
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+
+#console::-webkit-scrollbar {
+	width: 8px;
+}
+
+#console::-webkit-scrollbar-track {
+	background: rgb(30,30,30);
+}
+
+#console::-webkit-scrollbar-thumb {
+	background: rgb(40,40,40);
+	border-radius: 6px;
+}
+ 
+#console::-webkit-scrollbar-thumb:hover {
+	background: rgb(20,20,20);
+}
+
+.log {
+	color: white;
+	word-wrap: break-word;
+	font-size: 12px;
+}
+
+#console-buttons input {
+	background-color: rgb(50,50,50);
+
+	height: 2rem;
+	width: 25rem;
+
+	border-style: solid;
+	border-radius: 5px;
+	border-color: rgb(35,35,35);
+
+	color: white;
+}
+
+#console-buttons button {
+	background-color: rgb(50,50,50);
+
+	height: 2rem;
+
+	border-style: solid;
+	border-radius: 5px;
+	border-color: rgb(35,35,35);
+
+	transform: .5s;
+}
+
+#console-buttons button:hover {
+	transform: scale(1.05);
+}
+
+#console-buttons button:active {
+	transform: scale(0.95);
+}
