@@ -14,7 +14,7 @@ Download the offline version of Eaglercraft from their website, then rename it t
 
 To start the server run `npm run mce` in the MCE directory.
 
-Share the `ws` ip with friends and connect to the server. Note: the ip provided is '0.0.0.0' if you are playing on a LAN please replace it with the local address of your machine. If you are playing over internet, make sure to open ports `8006` & `8081`. Then replace '0.0.0.0' with your public ip. (Do not share your public ip to strangers!)
+Open ports `8006` and `8081` (TCP & UDP) to your local network. On linux, use `iptables` or `ufw`. On windows use the Windows Firewall to open the ports. Then share your `ws` ip with your friends. If you plan to play over internet, open the ports on your router.
 
 To use the console panel, the machine running the server must connect to `localhost:8006/console`.
 

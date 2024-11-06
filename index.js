@@ -4,6 +4,8 @@ const http = require('http');
 const path = require('path');
 
 const socket = require('./src/backend/socket');
+const address = require('./src/backend/address');
+
 const minecraft = require('./src/backend/process/minecraft');
 const bungee = require('./src/backend/process/bungee');
 
@@ -92,9 +94,11 @@ server.listen(PORT, () => {
 	process_minecraft = minecraft( SERVER_RAM_GB, webserver.wss );
 	process_bungee = bungee();
 
+	const local_address = address();
+
 	console.log('------------------------------------------');
-	console.log('Play Minecraft: http://0.0.0.0:8006/');
-	console.log('Server IP: ws://0.0.0.0:8081/');
+	console.log(`Play Minecraft: http://${local_address}:8006/`);
+	console.log(`Server IP: ws://${local_address}:8081/`);
 	console.log('------------------------------------------');
 	console.log('Console Panel: http://localhost:8006/console');
 	console.log('* The console panel is only accessible via localhost.');
