@@ -8,7 +8,7 @@ fun for lan parties when everybody doesnt have minecraft
 
 Works for version: 1.8.8.
 
-# Quick How-To
+# How-To
 
 Download the offline version of Eaglercraft from their website, then rename it to "minecraft". Place this file in `src/frontend`
 
